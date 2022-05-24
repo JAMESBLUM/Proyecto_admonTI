@@ -1,0 +1,62 @@
+/* SEGUNDA NAVEGACIÓN*/
+.segundaNavegacion{padding: 10px 0;}
+.segundoNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 15px 0 15px 0;
+}
+@media (min-width: 1200px) {
+    .segundoNav{
+        flex-direction: row;
+    }
+}
+.segundaNavegacion a{
+    color: #63686E; 
+    border-bottom: solid 2px transparent;
+    transition: ease-in .5s;
+}
+.segundaNavegacion a:hover{font-weight: bold; border-bottom: solid 2px #63686E;}
+/* OVERLAY DE LOS HEROES */
+.overlay{
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* ESTILOS DEL DESARROLLO DEL TEMA CON LAS CARDS */
+.desarrollo{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 768px){
+    .desarrollo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-start;
+    }
+}
+@media (min-width: 1200px){
+    .desarrollo{grid-template-columns: repeat(4, 1fr);}
+}
+.bg-azulito{background-color: #7E97A6;}
+.nav-link{color: #fff;}
+.nav-link:hover{font-weight: bold; color: #fff;}
+
+/*=========== CARD */
+@media (min-width: 768px) {
+    .card-body{
+        height: 250px;
+        overflow-y: scroll;
+    }
+}

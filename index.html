@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--============ BOOSTRAP ============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!--============ GOOGLE FONTS ============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <!--============ ESTILOS CSS ============-->
+    <link rel="stylesheet" href="source/css/global/global.css" />
+    <link rel="stylesheet" href="source/css/layout/index.css" />
+    <link rel="stylesheet" href="source/css/layout/header.css" />
+    <link rel="stylesheet" href="source/css/layout/footer.css" />
+    <link rel="stylesheet" href="source/css/utilidades/utilidades.css" />
+    <title>Admon Servicios de TI</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-azulito">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="source/img/logo/unam.png"
+              alt="Logo de la unam"
+              class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Temas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="pmbok6.html"
+                      >PMBOK 6</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="pmbok7.html"
+                      >PMBOK 7
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="itil4.html"
+                      >ITIL 4</a
+                    >
+                  </li>
+                  <!--<li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>-->
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Participantes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="cvEdgar/index.html"
+                      >Rodríguez Villalba Edgar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="cvAlejandro/cv_alex.html"
+                      >Gabriel Alejandro Rojas Pérez</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="cvAmayrani/Curriculum.html"
+                      >Amayrani Fernandez Garcia</a
+                    >
+                  </li>
+                  <!--<li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>-->
+                </ul>
+              </li>
+              <!--<li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin del header-->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="pmbok7.html">
+            <img
+              src="source/img/Heroe/masSobrePmbok7.gif"
+              class="d-block w-100"
+              alt="..."
+            />
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="conceptosClave.html">
+            <img
+              src="source/img/Heroe/masSobreItil.gif"
+              class="d-block w-100"
+              alt="..."
+            />
+          </a>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Fin del carrusel -->
+    <div class="heroe_index"></div>
+    <div class="container">
+      <div class="content-left_index">
+        <div>
+          <img src="source/img/pmbok6/contrato.jpg" alt="" />
+        </div>
+        <div>
+          <h3>PMBOK 6</h3>
+          <p>
+            El Project Management Institute (PMI) produjo una línea base de diagramas y glosarios para el PMBOK. Los directores de proyecto pronto comprendieron que un solo libro no podría contener el PMBOK completo. Por lo tanto, el PMI desarrolló y publicó la Guía de los Fundamentos para la Dirección de Proyectos (Guía del PMBOK®).
+          </p>
+          <br>
+            <a href="pmbok6.html" class="btn btn-outline-primary">Leer más</a>
+        </div>
+      </div>
+      <div class="content-right_index">
+        <div>
+          <h3>PMBOK 7</h3>
+          <p>
+            
+          La Guía de los fundamentos para la dirección de proyectos es un libro en el que se presentan estándares, pautas y normas para la gestión de proyectos.
+          Es una guía de dirección de proyectos que se enfocan en hacer la guía más usable, con menos páginas y con el mismo contenido, analiza la aportación de valor, no a entregables
+          </p>
+          <br>
+            <a href="pmbok7.html" class="btn btn-outline-primary">Leer más</a>
+        </div>
+        <div>
+          <img src="source/img/pmbok6/contrato2.jfif" alt="" />
+        </div>
+      </div>
+
+      <div class="content-left_index">
+        <div>
+          <img src="source/img/pmbok6/contrato3.jpg" alt="" />
+        </div>
+        <div>
+          <h3>ITIL4</h3>
+          <p>
+            ITIL 4 ofrece un enfoque práctico y flexible para apoyar a todas las organizaciones en su viaje al nuevo mundo de la transformación digital. ITIL es una libreria de tecnologías de información, en otras palabras es una guia de buenas practicas.
+          </p>
+          <br>
+            <a href="itil4.html" class="btn btn-outline-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="source/img/logo/unam.png"
+            alt="Logo de la unam"
+            class="logo"
+        /></a>
+      </div>
+      <div>
+        <p><b>ADMINISTRACIÓN DE SERVICIOS DE TI</b></p>
+      </div>
+      <div></div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

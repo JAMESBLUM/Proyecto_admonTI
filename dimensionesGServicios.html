@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--============ BOOSTRAP ============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!--============ GOOGLE FONTS ============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <!--============ ESTILOS CSS ============-->
+    <link rel="stylesheet" href="source/css/global/global.css" />
+    <link rel="stylesheet" href="source/css/layout/index.css" />
+    <link rel="stylesheet" href="source/css/layout/header.css" />
+    <link rel="stylesheet" href="source/css/layout/footer.css" />
+    <link rel="stylesheet" href="source/css/layout/itil4.css" />
+    <link rel="stylesheet" href="source/css/utilidades/utilidades.css" />
+    <title>Admon Servicios de TI</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-azulito">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="source/img/logo/unam.png"
+              alt="Logo de la unam"
+              class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Temas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="pmbok6.html"
+                      >PMBOK 6</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="pmbok7.html"
+                      >PMBOK 7
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="itil4.html"
+                      >ITIL 4</a
+                    >
+                  </li>
+                  <!--<li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>-->
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Participantes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="cvEdgar/index.html"
+                      >Rodríguez Villalba Edgar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="cvAlejandro/cv_alex.html"
+                      >Gabriel Alejandro Rojas Pérez</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="cvAmayrani/Curriculum.html"
+                      >Amayrani Fernandez Garcia</a
+                    >
+                  </li>
+                  <!--<li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>-->
+                </ul>
+              </li>
+              <!--<li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin del header-->
+    <div class="heroe_itil4">
+      <div class="overlay">
+        <h1>ITIL 4</h1>
+        <h3>4 Dimensiones de Gestión de Servicio</h3>
+      </div>
+    </div>
+    <div class="segundaNavegacion">
+      <nav class="segundoNav">
+        <a href="conceptosClave.html" target="blank">Conceptos clave</a>
+        <a href="principiosGuia.html" target="blank">Los principios guía</a>
+        <a href="dimensionesGServicios.html" target="blank"
+          >4 Dimensiones de gestión de servicios</a
+        >
+        <a href="svs.html" target="blank">Sistema de valor del servicio</a>
+        <a href="mejoraContinua.html" target="blank">Mejora continua</a>
+        <a href="practicasITIL.html" target="blank">Prácticas de ITIL</a>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="tema" id="tema1">
+        <div class="descripcion">
+          <h3>1) Organizaciones y Personas</h3>
+          <p>
+            Las organizaciones necesitan una estructura bien definida para
+            alinear a su personal con la estrategia organizacional general y el
+            modelo operativo. Para respaldar la estrategia y el modelo
+            operativo, las personas deben tener una comprensión clara de la
+            estructura Organizacional Bien Definida Las organizaciones necesitan
+            una estructura bien definida para alinear a su personal con la
+            estrategia organizacional general y el modelo operativo. Para
+            respaldar la estrategia y el modelo operativo, las personas deben
+            tener.
+          </p>
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/lineasReporte.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Líneas de reporte</h4>
+              <p class="card-text">
+                Líneas de reporte Una organización debe definir claramente las
+                líneas de responsabilidad sólidas y punteadas. Las líneas
+                continuas indican la responsabilidad de las actividades de los
+                empleados, incluida la administración de la disciplina. Las
+                líneas de puntos indican un nivel más limitado de
+                responsabilidad y autoridad sobre los demá
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/rolesResponsabilidades.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Roles y responsabilidades</h4>
+              <p class="card-text">
+                Cuando una organización define roles y responsabilidades claros,
+                permite a las personas conocer las expectativas, tales como cómo
+                comportarse, qué cumplir y cómo alcanzar la meta. Una
+                comprensión clara también les permite trabajar juntos con menos
+                argumentos y más creatividad.
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/sistemaAutoridad.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Sistemas de autoridad</h4>
+              <p class="card-text">
+                Dependiendo de los diferentes tipos de responsabilidades, las
+                personas en una organización pueden tener tres tipos de autorida
+              </p>
+              <p>
+                <b>Autoridad de línea:</b> Es la autoridad más básica en una
+                organización que permite a los gerentes dirigir el trabajo de
+                los empleados.
+              </p>
+              <p>
+                <b>Autoridad del personal:</b> Los gerentes de personal apoyan a
+                los gerentes de línea y otro personal al ayudarlos y
+                aconsejarlos sobre cómo mejorar su eficacia para realizar las
+                tareas requeridas
+              </p>
+              <p>
+                <b>Autoridad Funcional:</b> Una organización proporciona
+                autoridad funcional a un empleado o departamento para realizar
+                un trabajo en particular durante un período de tiempo.
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/modeloComunicacion.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Modelo de comunicación</h4>
+              <p class="card-text">
+                La comunicación es el catalizador para una comprensión clara de
+                cualquier cosa, ya que se trata de compartir información de una
+                persona a otra. El proceso que siguen las organizaciones para
+                una comunicación efectiva se conoce como el modelo de
+                comunicación.
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+        </div>
+      </div>
+      <!-- Fin del tema -->
+      <div class="tema" id="tema2">
+        <div class="descripcion">
+          <h3>2) Información y tecnología</h3>
+          <p>
+            Cada negocio trata con datos, que no es más que la información
+            estructurada. En los tiempos modernos, las organizaciones utilizan
+            la tecnología para gestionar la gran cantidad de datos. Por lo
+            tanto, esta dimensión se centra en dos elementos, la información y
+            la tecnología.
+          </p>
+          <br />
+          <h5>Información</h5>
+          <p>
+            Se refiere a la parte de que una organización reponda las siguientes
+            preguntas:
+          </p>
+          <ul>
+            <li>¿Qué información manejarán los servicios?</li>
+            <li>
+              ¿Qué información y conocimientos de soporte necesita para entregar
+              y gestionar los servicios?
+            </li>
+            <li>
+              ¿Cómo se protegerá, administrará y desechará los activos de
+              información y conocimiento?
+            </li>
+          </ul>
+          <br />
+          <h5>Tecnología</h5>
+          <p>
+            Hoy en día, casi todos los servicios se basan en Tecnología de
+            Información, y una organización puede elegir utilizar la tecnología
+            en cualquier momento para sus productos o servicios. Por lo tanto,
+            surgen muchas inquietudes cuando se elige utilizar la tecnología.
+          </p>
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/gestionInformacion.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Gestión de la información</h4>
+              <p class="card-text">
+                la gestión eficaz de la información es la principal forma de entregar valor a los clientes. Es el resultado clave de casi todos los servicios de TI consumidos por los clientes de negocio. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/intercambioInformacion.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Intercambio de la información</h4>
+              <p class="card-text">
+                Uno de los aspectos de la dimensión de la información y la tecnología es cómo intercambiar información entre diferentes servicios y sus componentes. Hoy en día, es esencial mantener la optimización de los servicios teniendo en cuenta los diversos factores, como la disponibilidad, confiabilidad, accesibilidad, puntualidad, precisión de la información e intercambio de información entre los servicios. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/desafiosInformacion.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Desafíos de la gestión de la información</h4>
+              <p class="card-text">
+                La dimensión de la información y la tecnología también se centra en los desafíos de la gestión de la información. Existen muchas regulaciones que restringen a las industrias o países la administración de datos utilizando sus estándares, como los requisitos de seguridad y cumplimiento de normas. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+        </div>
+      </div>
+      <div class="tema" id="tema3">
+        <div class="descripcion">
+          <h3>3) Socios y proveedores</h3>
+          <p>
+            La dimensión Socios y Proveedores incluye las relaciones de una
+            organización con otras organizaciones. Casi todas las organizaciones
+            y todos los servicios dependen en cierta medida de los servicios
+            proporcionados por otras organizaciones. Por lo tanto, trabajan con
+            socios y proveedores para lograr el objetivo organizacional.
+          </p>
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/relacionesOrganizacionales.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Relaciones organizacionales</h4>
+              <p class="card-text">
+                Las organizaciones trabajan con Socios y Proveedores a través de
+                contratos u otros acuerdos, este proceso incluye varios niveles
+                de integración y formalidad. Otras organizaciones pueden optar
+                por confiar lo más posible en sus propios recursos, utilizando a
+                los socios y proveedores lo menos posible.
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/sociosProveedores.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Dirigiéndose a socios y proveedores</h4>
+              <p class="card-text">
+                <ul>
+                    <li>
+                        Asegura la coordinación adecuada de las relaciones de servicios 
+                        utilizando un integrador especialmente establecido. 
+                    </li>
+                    <li>
+                        Uno de los métodos para dirigirse a los socios y proveedores es la Gestión 
+                        e Integración de Servicios (SIAM). 
+                    </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/estrategiaOrganizacional.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Impacto en la estrategía organizacional</h4>
+              <p class="card-text">
+                Cuando se trata con proveedores, varios factores 
+                pueden afectar la estrategia general de la organización, tales como: 
+                <ul>
+                    <li>Enfoque estratégico</li>
+                    <li>Cultura corporativa</li>
+                    <li>Escasez de recursos</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+        </div>
+      </div>
+      <!-- Fin del tema -->
+      <div class="tema" id="tema4">
+        <div class="descripcion">
+          <h3>4) Flujos de valor y procesos</h3>
+          <p>
+            La dimensión Flujos de Valor y Procesos se centra en la integración y coordinación 
+            tanto del SVS en general como de los productos y servicios específicos. Define las 
+            actividades, flujos de trabajo, controles y procedimientos necesarios para lograr los
+            objetivos acordados. En otras palabras, la dimensión se centra en la organización 
+            eficiente de las diversas actividades para entregar valor a las partes interesadas. 
+            Por lo tanto, existe la necesidad de un modelo operativo que organice eficientemente 
+            las actividades clave para administrar productos y servicios.
+          </p>
+          <br>
+          <h5>Flujos de valor</h5>
+            <p>
+              “Un flujo de valor es una serie de pasos que una organización utiliza para crear y 
+              entregar productos y servicios a los consumidores. Un flujo de valor es una combinación 
+              de las actividades de la cadena de valor de la organización”. 
+            </p>
+            <br>
+            <h5>Procesos</h5>
+            <p>Un proceso es un conjunto de actividades interrelacionadas o 
+                interactivas que transforman entradas en salidas. Los procesos definen 
+                la secuencia de acciones y sus dependencias. Un proceso toma una 
+                o más entradas definidas y las convierte en salidas específicas.
+                Los procesos generalmente se detallan en procedimientos, que describen 
+                quiénes están involucrados en el proceso, e instrucciones de trabajo, 
+                que explican cómo se llevan a cabo.
+            </p>
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/desempenoMejorado.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Desempeño mejorado</h4>
+              <p class="card-text">
+                Los flujos de valor ayudan a mejorar el desempeño general 
+                de una organización. Por lo tanto, es esencial identificar y 
+                comprender los diversos flujos de valor de la organización. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/mejorComprension.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Mejor comprensión</h4>
+              <p class="card-text">
+                Las organizaciones deben estructurar sus portafolios de productos y servicios 
+                en función de los flujos de valor, ya que ofrecen dos beneficios principales. 
+                Primero, permite tener una comprensión clara de qué valor ofrece una organización
+                y cómo. En segundo lugar, ayuda a hacer mejoras continuas del servicio. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/mayorProductividad.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Mayor productividad</h4>
+              <p class="card-text">
+                Los flujos de valor ayudan a las organizaciones a 
+                analizar cómo realizan su trabajo. El análisis les 
+                permite encontrar desperdicios en su flujo de trabajo 
+                actual, como obstáculos y actividades que no agregan valor,
+                y aumentan las actividades que agregan valor. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/mejoraContinua.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Mejora continua</h4>
+              <p class="card-text">
+                En la era actual de demandas cambiantes, los flujos de valor 
+                deben mejorarse o perfeccionarse continuamente para cumplir 
+                con la estrategia organizacional y el objetivo de una manera 
+                óptima.
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+        </div>
+        <div class="descripcion">
+          <h3>Factores externos y modelo pestle</h3>
+          <p>
+            Los proveedores de servicios no trabajan de manera aislada. Por
+            lo tanto, los factores externos pueden influir en la forma en que
+            funcionan. El modelo PESTLE ayuda a analizar estos factores.
+          </p>
+          <p><b>P</b>olíticos - Política gubernamental.</p>
+          <p><b>E</b>conómmicos - Crecimiento económico.</p>
+          <p><b>S</b>ociales - Crecimiento poblacional.</p>
+          <p><b>T</b>ecnologícos - Nuevas formas de comunicación con el mercado.</p>
+          <p><b>L</b>egales - Salud y seguridad.</p>
+          <p><b>E</b>ntorno - Escases de materia prima.</p>
+          <br>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Preguntas
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p><b>1)¿Qué es lo que necesita una organización para alinear a su personal con la estrategía organizacional?</b></p>
+                <p>R.-Una estructura bien definida.</p>
+                <p><b>2)¿Qué deben definir las líneas de reporte?</b></p>
+                <p>R.-Debe definir claramente las líneas de responsabilidad sólidas y punteadas.</p>
+                <p><b>3)¿Para qué debemos definir bien los roles y responsabilidades?</b></p>
+                <p>R.-Sirve para que las personas conozcan las expectativas</p>
+                <p><b>4)¿Cúal es la autoridad de línea?</b></p>
+                <p>R.-Es la autoridad más básica en una organización que permite a los gerentes dirigir el trabajo de los empleados.</p>
+                <p><b>5)¿Quién aconseja sobre cómo mejorar su eficacia para realizar las tareas requeridas ?</b></p>
+                <p>R.-Autoridad del personal</p>
+                <p><b>6)¿Quién proporciona una autoridad funcional a un empleado?</b></p>
+                <p>R.-Una organización</p>
+                <p><b>7)¿De qué se encarga el modelo de comunicación?</b></p>
+                <p>R.-Es el catalizador para una comprensión clara de cualquier cosa, ya que se trata de compartir información de una persona a otra.</p>
+                <p><b>8)¿Qué dimensión incluye las relaciones de una organización con otras organizaciones.?</b></p>
+                <p>R.-Socios y proveedores</p>
+                <p><b>9)¿Cuáles son los factores que pueden afectar la estrategia general de la organización?</b></p>
+                <p>R.-Enfoque estratégico, Cultura corporativa, Escasez de recursos</p>
+                <p><b>10)¿Qué es un proceso?</b></p>
+                <p>R.-Es un conjunto de actividades interrelacionadas o interactivas que transforman entradas en salidas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      </div>
+      <!-- Fin del tema -->
+      <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="source/img/Comentarios/CUATRO DIMENSIONES.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="source/img/Comentarios/CUATRO DIMENSIONES (2).png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="source/img/Comentarios/4dimensiones_comentario_edd.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Fin del carrusel -->
+    <br><br>
+    </div>
+    <!-- Fin contenido -->
+    <footer>
+      <div>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="source/img/logo/unam.png"
+            alt="Logo de la unam"
+            class="logo"
+        /></a>
+      </div>
+      <div>
+        <p><b>ADMINISTRACIÓN DE SERVICIOS DE TI</b></p>
+      </div>
+      <div></div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

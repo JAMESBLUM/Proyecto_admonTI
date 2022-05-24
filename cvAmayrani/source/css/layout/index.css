@@ -1,0 +1,21 @@
+.heroe_index{
+    background-image: url();
+}
+.content-left_index, .content-right_index{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    align-items: center;
+    gap: 1.5rem;
+}
+@media (min-width: 768px) {
+    .content-left_index, .content-right_index{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+@media (min-width: 1200px) {
+    .content-left_index img, .content-right_index img{
+        width: 300px;
+    }
+}

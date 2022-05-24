@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--============ BOOSTRAP ============-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!--============ GOOGLE FONTS ============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+    <!--============ ESTILOS CSS ============-->
+    <link rel="stylesheet" href="source/css/global/global.css" />
+    <link rel="stylesheet" href="source/css/layout/index.css" />
+    <link rel="stylesheet" href="source/css/layout/header.css" />
+    <link rel="stylesheet" href="source/css/layout/footer.css" />
+    <link rel="stylesheet" href="source/css/layout/itil4.css" />
+    <link rel="stylesheet" href="source/css/utilidades/utilidades.css" />
+    <title>Admon Servicios de TI</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-azulito">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="source/img/logo/unam.png" alt="Logo de la unam"
+                        class="logo" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Temas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px" href="pmbok6.html">PMBOK 6</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px" href="pmbok7.html">PMBOK 7
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px" href="itil4.html">ITIL 4</a>
+                                </li>
+                                <!--<li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>-->
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Participantes
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px" href="cvEdgar/index.html">Rodríguez
+                                        Villalba Edgar</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px"
+                                        href="cvAlejandro/cv_alex.html">Gabriel Alejandro Rojas Pérez</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px"
+                                        href="cvAmayrani/Curriculum.html">Amayrani Fernandez Garcia</a>
+                                </li>
+                                <!--<li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>-->
+                            </ul>
+                        </li>
+                        <!--<li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin del header-->
+    <div class="heroe_itil4">
+        <div class="overlay">
+            <h1>ITIL 4</h1>
+            <h3>LAS PRÁCTICAS DE ITIL</h3>
+        </div>
+    </div>
+    <div class="segundaNavegacion">
+        <nav class="segundoNav">
+            <a href="conceptosClave.html" target="blank">Conceptos clave</a>
+            <a href="principiosGuia.html" target="blank">Los principios guía</a>
+            <a href="dimensionesGServicios.html" target="blank">4 Dimensiones de gestión de servicios</a>
+            <a href="svs.html" target="blank">Sistema de valor del servicio</a>
+            <a href="mejoraContinua.html" target="blank">Mejora continua</a>
+            <a href="practicasITIL.html" target="blank">Prácticas de ITIL</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="tema" id="tema1">
+            <div class="descripcion">
+                <h3>1) LAS PRÁCTICAS DE ITIL</h3>
+                <p>
+                    Las prácticas de ITIL son uno de los seis componentes del Sistema
+                    de Valor del Servicio (SVS) de ITIL y respaldan las actividades de
+                    la cadena de valor del servicio, para proporcionar un conjunto de
+                    herramientas integral y adaptable para la gestión de servicios. <br>
+                    Una práctica de ITIL es un conjunto de recursos organizacionales
+                    diseñados para realizar ciertos tipos de trabajo.
+                </p>
+                <br>
+                <p>
+                    El SVS de ITIL incluye 34 prácticas, que se dividen en tres categorías:
+                <ul>
+                    <li>En primer lugar, las prácticas de gestión general se han
+                        adaptado para la gestión de servicios desde dominios generales
+                        de gestión de negocios;</li>
+                    <li>
+                        En segundo lugar, se han desarrollado prácticas de gestión de
+                        servicios en las industrias de gestión de servicios; y</li>
+                    <li> En tercer lugar, las prácticas de gestión técnica se han adaptado
+                        de los dominios de gestión de tecnología para fines de gestión
+                        de servicios.</li>
+                </ul>
+
+                <br>
+
+                <center>
+                    <div class="card" style="width: 500px">
+                        <img src="source/img/ITIL4/practicas_itil.png" class="card-img-top" height="400px" />
+                    </div>
+                </center>
+
+                </p>
+                <br>
+                <p>
+                    En ITIL, una práctica de gestión es un conjunto de recursos
+                    organizacionales diseñados para realizar un trabajo o lograr un
+                    objetivo. ITIL 4 incluye 14 prácticas de gestión general, 17 prácticas
+                    de gestión de servicios y tres prácticas de gestión técnica.
+                    El alcance del programa de estudios de la ITIL Fundamentos se
+                    limita a comprender el propósito de las 15 prácticas más utilizadas y
+                    comprender las siguientes 7 prácticas en detalle:
+                <ul>
+                    <li>Mejora continua</li>
+                    <li>Control de cambios</li>
+                    <li>Gestión de incidentes</li>
+                    <li>Gestión de problemas</li>
+                    <li>Gestión de solicitudes de servicio</li>
+                    <li>Mesa de servicio</li>
+                    <li>Gestión de niveles de servicio</li>
+                </ul>
+                </p>
+                <br>
+                <h3>2) PRÁCTICAS DE GESTIÓN GENERAL</h3>
+                <br>
+                <p>
+                    El propósito de la práctica mejora continua es alinear las prácticas
+                    y los servicios de la organización con las necesidades comerciales
+                    cambiantes a través de la identificación y mejora continua de los servicios,
+                    componentes del servicio, prácticas o cualquier elemento involucrado
+                    en la gestión eficiente y efectiva de los productos y servicios.
+                </p>
+
+                <center>
+                    <div class="card" style="width: 500px">
+                        <img src="source/img/ITIL4/mejora_continua_itil.png" class="card-img-top" height="400px" />
+                    </div>
+                </center>
+                <br>
+                <h5>ACTIVIDADES CLAVE DE MEJORA CONTINUA</h5>
+                <br>
+                <p>La práctica de mejora continua incluye las siguientes actividades
+                    clave:</p>
+            </div>
+            <div class="desarrollo">
+                <div class="card" style="height: 20rem">
+                    <img src="source/img/ITIL4/mejoraContinua.jpg" height="200px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Impulsar la mejora continua a través de toda la organización.
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="height: 20rem">
+                    <img src="source/img/ITIL4/tiempo_presupuesto.jpg" height="200px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Asegurar tiempo y presupuesto para la mejora continua.
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="height: 20rem">
+                    <img src="source/img/ITIL4/oportunidades.jpg" height="200px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Indentificar y registrar oportunidades de mejora
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="height: 20rem">
+                    <img src="source/img/ITIL4/mejora.jpg" height="200px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Evaluar y priorizar oportunidades de mejora.
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="height: 20rem">
+                    <img src="source/img/ITIL4/casos_negocio.jpg" height="200px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Hacer casos de negocio para las acciones de mejora.
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="height: 20rem">
+                    <img src="source/img/ITIL4/mejoras.jpg" height="200px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Planear e implementar mejoras
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="height: 20rem">
+                    <img src="source/img/ITIL4/resultados.png" height="200px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Medir y evaluar los resultados de las mejoras
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="height: 20rem">
+                    <img src="source/img/ITIL4/organizacion.jpg" height="200px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Coordinar las actividades de mejora en la organización.
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+            </div>
+        </div>
+        <!-- Fin del tema -->
+        <div class="tema" id="tema2">
+            <div class="descripcion">
+                <h5>MEJORA CONTINUA</h5>
+                <p>
+                    La mejora continua es responsabilidad de todos. Todos en la organización deben comprender la
+                    necesidad
+                    de una participación activa en las actividades de mejora continua como parte fundamental de su
+                    trabajo. <br>
+
+                    Si  bien  todos  deberían  contribuir  de  alguna  manera,  debería  haber un equipo dedicado a
+                    tiempo completo para dirigir los esfuerzos de mejora continua y guiar a otros en la
+                    organización para que desarrollen las habilidades que necesitan y naveguen sobre cualquier
+                    dificultad
+                    que pueda encontrar. <br> En una organización, los empleados deben recibir capacitación y asistencia
+                    para
+                    ayudarlos a sentirse preparados para contribuir a la mejora continua. Los datos precisos y
+                    cuidadosamente analizados son la base de la toma de decisiones basada en hechos para mejorar. <br>
+                    La
+                    práctica de mejora continua debe ser respaldada por fuentes de datos relevantes y análisis de datos
+                    para
+                    asegurar que cada mejora potencial sea entendida y priorizada.
+                </p>
+                <center>
+                    <div class="card" style="width: 500px">
+                        <img src="source/img/ITIL4/piramide.png" class="card-img-top" height="400px" />
+                    </div>
+                </center>
+            </div>
+            <div class="descripcion">
+                <h5>GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN</h5>
+                <p>
+                    El propósito de la práctica gestión de seguridad de la información es:
+                <ul>
+                    <li> Proteger la información utilizada por las organizaciones para
+                        dirigir su negocio. </li>
+                    <li>
+                        Comprender  y  gestionar  los  riesgos  de  confi dencialidad, 
+                        integridad y disponibilidad de la información.</li>
+                    <li> Mantener la seguridad de la información para la autenticación
+                        y el no repudio. </li>
+                </ul>
+                La seguridad se establece mediante políticas, procesos, comportamientos, 
+                gestión de riesgos y controles, que deben mantener un equilibrio entre:
+                </p>
+                <center>
+                    <div class="card" style="width: 500px">
+                        <img src="source/img/ITIL4/riesgos.png" class="card-img-top" height="200px" />
+                    </div>
+                </center>
+            </div>
+            <div class="descripcion">
+                <h5>GESTIÓN DE RELACIONES</h5>
+                <p>
+                    El propósito de la práctica gestión de relaciones es:
+                <ul>
+                    <li> Crear y fomentar los vínculos entre la organización y sus partes
+                        interesadas a nivel estratégico y táctico. </li>
+                    <li>
+                        Identificar, analizar, monitorear y mejorar continuamente las relaciones con y entre las partes
+                        interesadas.</li>
+                </ul>
+                La práctica gestión de relaciones asegura que:
+                <ul>
+                    <li> Se comprenden las necesidades de las partes interesadas y se
+                        priorizan los productos y servicios. </li>
+                    <li>
+                        Se establece relación constructiva entre la organización y las partes interesadas
+                    </li>
+                    <li>Se establecen y mantienen prioridades para productos /
+                        servicios nuevos o modificados para los clientes</li>
+                    <li>Las quejas y escalamientos de las partes interesadas sean
+                        bien manejadas</li>
+                    <li>Los productos y servicios facilitan la creación de valor para los
+                        consumidores de servicios y organizaciones</li>
+                    <li>Las organizaciones facilitan la creación de valor para todos los
+                        interesados</li>
+                </ul>
+                </p>
+                <center>
+                    <div class="card" style="width: 500px">
+                        <img src="source/img/utilidades/relaciones.png" class="card-img-top" height="200px" />
+                    </div>
+                </center>
+            </div>
+            <div class="descripcion">
+                <h5>GESTIÓN DE PROVEEDORES</h5>
+                <p>
+                    El propósito de la práctica gestión de proveedores es:
+                <ul>
+                    <li> Asegurarse de que el proveedor y su desempeño se gestionen
+                        de manera adecuada para respaldar el aprovisionamiento de
+                        productos y servicios de calidad. </li>
+                    <li>
+                        Crear más relaciones de colaboración con el proveedor clave
+                    </li>
+                    <li>
+                        Descubrir y darse cuenta de nuevos valores y reducir el riesgo
+                        de fracaso.
+                    </li>
+                </ul>
+                Las actividades clave de la gestión de proveedores son:
+                <ul>
+                    <li> Creación de un único punto de visibilidad y control para asegurar
+                        la consistencia. </li>
+                    <li>
+                        Mantener una estrategia de proveedores, políticas e información de gestión de contratos
+
+                    </li>
+                    </li>
+                    <li>Negociar y acordar contratos y acuerdos.</li>
+                    <li>Gestión de relaciones y contratos con proveedores internos y
+                        externos. </li>
+                    <li>Gestión del desempeño del proveedor</li>
+
+                </ul>
+                </p>
+                <center>
+                    <div class="card" style="width: 500px">
+                        <img src="source/img/ITIL4/Proveedores.jpg" class="card-img-top" height="200px" />
+                    </div>
+                </center>
+            </div>
+            <br>
+
+        </div>
+        <!-- Fin del tema -->
+        <div class="tema" id="tema3">
+            <div class="descripcion">
+                <h3>3) PRÁCTICAS GESTIÓN DE SERVICIOS</h3>
+            </div>
+            <div class="desarrollo">
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/control_cambios.jpg" width="286px" height="192px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>Control de cambios</h4>
+                        <p class="card-text">
+                            El propósito de la práctica de control de cambios es maximizar
+                            la cantidad de cambios exitosos de TI al confirmar que los
+                            riesgos se han gestionado adecuadamente. El alcance del
+                            control de cambios está definido por cada organización.
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/gestion_incidentes.png" width="286px" height="192px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>Gestión de incidentes</h4>
+                        <p class="card-text">
+                            La gestión de incidentes reduce el impacto no deseado de
+                            los incidentes mediante la restauración de las operaciones
+                            normales de servicio tan pronto como sea posible. Las
+                            actividades clave que son importantes para resolver incidentes
+                            de manera eficiente y efectiva incluyen:
+                        <ul>
+                            <li>Registro y gestión de incidentes</li>
+                            <li>Acordar, documentar y comunicar los tiempos objetivo de
+                                resolución</li>
+                            <li>Priorizar los incidentes con base en una clasificación
+                                acordada</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/gestion_activos.png" width="286px" height="192px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>Gestión de activos TI</h4>
+                        <p class="card-text">
+                            Activos de TI se refiere a cualquier componente valioso que
+                            puede contribuir a la entrega de un producto o servicio de TI <br>
+                            El propósito de la práctica gestión de activos de TI es planificar
+                            y administrar el ciclo de vida de todos los activos de TI. Esto a
+                            su vez ayuda a la organización a:
+                        <ul>
+                            <li>Maximizar el valor para los clientes</li>
+                            <li>Controlar costos y presupuestos</li>
+                            <li>Hacer frente a los riesgos</li>
+                            <li>Tomar decisiones en términos de compra y reutilización</li>
+                            <li>Cumplir con los requisitos vigentes y prometidos</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/gestion_eventos.png" width="286px" height="192px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>Gestión de Eventos y Monitoreo</h4>
+                        <p class="card-text">
+                            Un evento puede definirse como cualquier cambio de estado
+                            que tenga importancia para la gestión de un elemento de
+                            configuración (CI) o servicio de TI. Los eventos generalmente
+                            se reconocen a través de notificaciones creadas por un servicio
+                            de TI, CI o herramienta de monitoreo. <br>
+                            El propósito de la práctica gestión de eventos y monitoreo es:
+                        <ul>
+                            <li>Analizar los componentes del servicio</li>
+                            <li>Registrar e informar cambios de estado identificados como
+                                eventos</li>
+                            <li>Priorizar la infraestructura, servicios, procesos de negocios
+                                y eventos de seguridad de la información</li>
+                            <li>Gestiona eventos a lo largo de su ciclo de vida</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/gestion_problemas.jpg" width="286px" height="192px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>Gestión de problemas</h4>
+                        <p class="card-text">
+                            El propósito de gestión de problemas es minimizar la
+                            probabilidad y el impacto de los incidentes mediante el análisis
+                            de las causas reales y posibles de los incidentes. La gestión
+                            de problemas implica tres fases: identificación de problemas,
+                            control de problemas y control de errores
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/gestion_liberacion.png" width="286px" height="192px" width="286px" height="192px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>Gestión de libreación</h4>
+                        <p class="card-text">
+                            La gestión implementaciones es una práctica independiente, aunque
+                            trabaja estrechamente con la gestión de liberaciones y el control de
+                            cambios. La gestión de implementaciones también se puede referir como
+                            “aprovisionamiento”. Sin embargo, el término aprovisionamiento se usa
+                            a menudo para describir la implementación de infraestructura, mientras
+                            que “implementación” se refiere a la implementación de software.
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/gestion_Servicio.jpg.opdownload" width="286px" height="192px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>Gestión de confi guración del servicio</h4>
+                        <p class="card-text">
+                            El propósito de la práctica gestión de confi guración del servicio 
+                            se describe en los siguientes puntos:
+                            <ul>
+                                <li>La información sobre la confi guración de servicios y CIs es 
+                                    precisa, confi able y está disponible cuando sea necesario.</li>
+                                <li>Recopilar y administrar información sobre diversos CIs,
+                                    como hardware, software, redes, usuarios y documentos.</li>
+                                <li>Proporcionar información acerca de CIs y cómo los Cis
+                                    interactúan, se  relacionan y dependen entre sí para crear 
+                                    valor para los clientes y usuarios.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/service_desk.png" width="286px" height="192px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>Service Desk</h4>
+                        <p class="card-text">
+                            El propósito de la práctica Service Desk es comprender la
+                            demanda de resolución de incidentes y solicitudes de servicio.
+                            Un Service Desk actúa como punto de entrada / punto único de
+                            contacto para la organización de TI o de servicio
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/gestion_Servicio.jpg.opdownload" width="286px" height="192px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>Gestión de solicitudes de servicio</h4>
+                        <p class="card-text">
+                            El propósito de la práctica gestión de solicitudes de servicio
+                            es proporcionar la calidad prometida de un servicio al manejar
+                            todas las solicitudes de servicio predefinidas e iniciadas por el
+                            usuario de una manera efectiva y comprensible
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+            </div>
+        </div>
+        <!-- Fin del tema -->
+        <div class="tema" id="tema4">
+            <div class="descripcion">
+                <h3>3) PRÁCTICAS GESTIÓN TÉCNICA</h3> <br>
+                <h5>Gestión de implementación</h5>
+                <p>“El propósito de la práctica gestión de implementación es mover
+                    hardware, software, documentación, procesos o cualquier otro
+                    componente nuevo o modificado a entornos en vivo. También puede
+                    involucrarse en el despliegue de componentes en otros entornos para
+                    pruebas o almacenamiento provisional <br>
+
+                    La gestión implementaciones es una práctica independiente, aunque
+                    trabaja estrechamente con la gestión de liberaciones y el control de
+                    cambios. La gestión de implementaciones también se puede referir como
+                    “aprovisionamiento”. Sin embargo, el término aprovisionamiento se usa
+                    a menudo para describir la implementación de infraestructura, mientras
+                    que “implementación” se refiere a la implementación de software. <br>
+                    Dentro de ITIL, la práctica de gestión de implementaciones se
+                    refiere tanto al “aprovisionamiento” de la infraestructura como a la
+                    “implementación” del software.
+                
+                </p>
+
+                <br>
+
+                <center>
+                    <div class="card" style="width: 500px">
+                      <img src="source/img/ITIL4/gestion_implementacion.png" class="card-img-top" height="300px" />
+                    </div>
+                  </center>
+                  <br>
+            </div>
+           
+        </div>
+        <!-- Fin del tema -->
+        <div class="preguntas">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Preguntas
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><b>1)¿Qué es una práctica en ITIL?  </b></p>
+                            <p>
+                                Una práctica de ITIL es un conjunto de recursos organizacionales diseñados para realizar ciertos tipos de trabajo.
+                            </p>
+                            <p><b>2) ¿Cuántas practicas incluye el SVS de ITIL?</b></p>
+                            <p>
+                                R=  34 practicas 
+                            </p>
+                            <p><b>3) ¿Cuántas categorías existen en las practicas de gestión de ITIL? </b></p>
+                            <p>
+                                R= 3 prácticas
+                            </p>
+                            <p><b>4) ¿Cuál es la primera practica de gestión de ITIL?</b></p>
+                            <p>
+                                R= Práctica gestión general
+                            </p>
+                            <p><b>5) ¿Cuál es la segunda practica de gestión de ITIL?</b></p>
+                            <p>R= Prácticas gestión de servicios</p>
+                            <p><b>6) ¿Cuál es la tercera practica de gestión de ITIL? </b></p>
+                            <p>
+                                R= Prácticas gestión técnica
+                            </p>
+                            <p><b>7) ¿Cuál es el propósito de la practica de mejora continua?  </b></p>
+                            <p>
+                                R= alinear las prácticas y los servicios de la organización con las necesidades comerciales cambiantes a través de la identificación y mejora continua de los servicios
+                            </p>
+                            <p><b>8) ¿El impulsar la mejora continua a través de toda la organización es una actividad de mejora continua?  </b></p>
+                            <p>
+                                R= Correcto
+                            </p>
+                            <p><b>9) ¿Cuál es el propósito de la seguridad de la información?</b></p>
+                            <p>
+                                R= Proteger la información utilizada por las organizaciones para dirigir su negocio.
+                            </p>
+                            <p><b>10) ¿Cuál es el propósito de la gestión de proveedores? </b></p>
+                            <p>
+                                R= Asegurarse de que el proveedor y su desempeño se gestionen de manera adecuada para respaldar el aprovisionamiento de productos y servicios de calidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin preguntas -->
+        </div>
+        <br>
+
+        <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="source/img/Comentarios/PRACTICAS DE ITIL.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="source/img/Comentarios/PRACTICAS DE ITIL (2).png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="source/img/Comentarios/practicasItil_comentario_edd.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Fin del carrusel -->
+      <br><br>
+    </div>
+    <!-- Fin contenido -->
+    <footer>
+        <div>
+            <a class="navbar-brand" href="#"><img src="source/img/logo/unam.png" alt="Logo de la unam"
+                    class="logo" /></a>
+        </div>
+        <div>
+            <p><b>ADMINISTRACIÓN DE SERVICIOS DE TI</b></p>
+        </div>
+        <div></div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

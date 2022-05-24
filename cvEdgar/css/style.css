@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:wght@100;400;900&display=swap');
+body{
+    font-family:  'Roboto', sans-serif;
+    color: #ffffff;
+}
+.card-body{
+   padding: 1rem;
+   line-height: 1.5;
+}
+h2{
+    color: black; 
+    font-family: 'League Gothic', 
+    sans-serif; font-size: 3rem; 
+}
+.card-title{
+    font-size: 2.5rem;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 900;
+    color: #000;
+}
+
+.carSet1{background-color: #669999;}
+.carSet2{background-color: #cc6666;}
+.cardSet3{background-color: #cc9966;}

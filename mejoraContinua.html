@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--============ BOOSTRAP ============-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!--============ GOOGLE FONTS ============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+    <!--============ ESTILOS CSS ============-->
+    <link rel="stylesheet" href="source/css/global/global.css" />
+    <link rel="stylesheet" href="source/css/layout/index.css" />
+    <link rel="stylesheet" href="source/css/layout/header.css" />
+    <link rel="stylesheet" href="source/css/layout/footer.css" />
+    <link rel="stylesheet" href="source/css/layout/itil4.css" />
+    <link rel="stylesheet" href="source/css/utilidades/utilidades.css" />
+    <title>Admon Servicios de TI</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-azulito">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="source/img/logo/unam.png" alt="Logo de la unam"
+                        class="logo" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Temas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px" href="pmbok6.html">PMBOK 6</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px" href="pmbok7.html">PMBOK 7
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px" href="itil4.html">ITIL 4</a>
+                                </li>
+                                <!--<li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>-->
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Participantes
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px" href="cvEdgar/index.html">Rodríguez
+                                        Villalba Edgar</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px"
+                                        href="cvAlejandro/cv_alex.html">Gabriel Alejandro Rojas Pérez</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" style="font-size: 15px"
+                                        href="cvAmayrani/Curriculum.html">Amayrani Fernandez Garcia</a>
+                                </li>
+                                <!--<li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>-->
+                            </ul>
+                        </li>
+                        <!--<li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin del header-->
+    <div class="heroe_itil4">
+        <div class="overlay">
+            <h1>ITIL 4</h1>
+            <h3>4 Dimensiones de Gestión de Servicio</h3>
+        </div>
+    </div>
+    <div class="segundaNavegacion">
+        <nav class="segundoNav">
+            <a href="conceptosClave.html" target="blank">Conceptos clave</a>
+            <a href="principiosGuia.html" target="blank">Los principios guía</a>
+            <a href="dimensionesGServicios.html" target="blank">4 Dimensiones de gestión de servicios</a>
+            <a href="svs.html" target="blank">Sistema de valor del servicio</a>
+            <a href="mejoraContinua.html" target="blank">Mejora continua</a>
+            <a href="practicasITIL.html" target="blank">Prácticas de ITIL</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="tema" id="tema1">
+            <div class="descripcion">
+                <h3>1) ¿QUÉ ES LA MEJORA CONTINUA?</h3>
+                <p>
+                    La mejora continua es una metodología que busca optimizar productos,
+                    servicios y procesos para hacer más eficiente la rutina de trabajo.
+                </p>
+                <p>
+                    Al revisar las operaciones con regularidad, las empresas
+                    pueden reducir costos, identificar oportunidades y actuar de manera
+                    proactiva para el éxito organizacional.
+                </p>
+                <br />
+            </div>
+        </div>
+        <!-- Fin del tema -->
+        <div class="tema" id="tema2">
+            <div class="descripcion">
+                <h3>2) OBJETIVOS DE LA MEJORA CONTINUA</h3>
+                <p>
+                    El objetivo de cualquier organización es crear valor para sus
+                    clientes, partes interesadas y socios. Para lograr este objetivo,
+                    cada organización participa en la mejora continua. La mejora
+                    continua es una actividad recurrente que se realiza en todos los
+                    niveles para garantizar que el desempeño de la organización cumpla
+                    con las expectativas de los interesados.
+                </p>
+                <br />
+                <h3>3) PROPOSITO</h3>
+                <p>
+                    El modelo proporciona un enfoque estructurado para implementar
+                    mejoras que apoyan a la organización para que sea ágil y resistente.
+                    <br />
+                    Para que la mejora continua tenga éxito, debe ser parte de las
+                    actividades de la cadena de valor del servicio y debe vincularse de
+                    nuevo con la visión de la organización.
+                </p>
+                <br />
+                <h4>BENEFICIOS DE LA MEJORA CONTINUA EN LA ORGANIZACIÓN</h4>
+            </div>
+            <div class="desarrollo">
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/gestionInformacion.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            El proveedor de servicio debe mantenerse alineado con los
+                            requisitos cambiantes del negocio
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/intercambioInformacion.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Evitar servicios obsoletos ante evolución de la tecnologia
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/desafiosInformacion.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Los servicios proporcionados por la organización deben revisarse
+                            y actualizarse continuamente para obtener oportunidades de
+                            mejora, de lo contrario, pierden la alineación y tienen poco
+                            valor
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+            </div>
+        </div>
+        <!-- Fin del tema -->
+        <div class="tema" id="tema3">
+            <div class="descripcion">
+                <h3>4) MODELO DE MEJORA CONTINUA</h3>
+                <p>
+                    El SVS de ITIL incluye el modelo de mejora continua, que puede
+                    aplicarse a cualquier tipo de mejora, desde cambios organizacionales
+                    de alto nivel hasta servicios individuales y elementos de
+                    configuración.
+                </p>
+                <br />
+                <p>
+                    Es importante recordar que el alcance y los detalles de cada paso
+                    del modelo variarán significativamente según el tema y el tipo de
+                    mejora. <br />
+                    Sin embargo, este modelo debe reconocerse como un flujo de trabajo
+                    que puede usarse como un recordatorio de alto nivel de un proceso de
+                    pensamiento sólido para garantizar que las mejoras se gestionen
+                    correctamente.
+                </p>
+                <br />
+                <center>
+                    <div class="card" style="width: 600px">
+                        <img src="source/img/ITIL4/images.png" class="card-img-top" height="400px" />
+                    </div>
+                </center>
+                <br />
+                <h4>LOS 7 PASOS DEL MODELO DE MEJORA CONTINUA</h4>
+
+            </div>
+            <div class="desarrollo">
+
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/vision.jpg" width="286px" height="286px" class="card-img-top"
+                        alt="..." />
+                    <div class="card-body">
+                        <h4>¿CÚAL ES LA VISIÓN</h4>
+                        <p class="card-text">
+                            El primer paso del modelo de mejora continua es definir la visión de la iniciativa. Brinda
+                            contexto para todas las decisiones posteriores y vincula las acciones individuales con la
+                            visión de la organización.
+                        </p>
+                        <p>
+                            La organización deben traducirse para la unidad de negocio, departamento, equipo o individuo
+                            específico, de modo que se entienda el contexto, objetivos y límites de cualquier iniciativa
+                            de mejora.
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/paso2.jpg" width="286px" height="286px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>¿DÓNDE ESTAMOS AHORA?</h4>
+                        <p class="card-text">
+                            Un elemento clave en este paso es realizar una evaluación del estado actual.
+                            <br>
+                            La evaluación del estado actual incluye:
+                        <ul>
+                            <li>Evaluación de los servicios existente.</li>
+                            <li>Comprensión de la cultura organizacional</li>
+                            <li>Si se omite este paso, el estado actual no se entenderá y no habrá una medición de línea
+                                de
+                                base objetiva</li>
+                        </ul>
+
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/paso3.jpg" width="286px" height="286px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>¿DÓNDE QUEREMOS ESTAR?</h4>
+                        <p class="card-text">
+                            Este paso describe cómo debe ser el Punto B, el estado objetivo para el siguiente paso del
+                            viaje. <br>
+                            No se puede trazar un viaje si el destino no está claro. <br>
+                            Si se omite este paso, el estado destino seguirá siendo poco claro. <br>
+                            Este paso debe definir una o más acciones priorizadas para completar la visión de la mejora,
+                            en base a lo que se conoce en el punto de partida. Las oportunidades de mejora se pueden
+                            identificar y priorizar en función del análisis de brechas, y se pueden establecer objetivos
+                            de  mejora,  junto  con  los  Factores  Críticos  de  Éxito  (CSF)  y  los  Indicadores
+                            clave de desempeño (KPI).
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/paso4.jpg" width="286px" height="286px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>¿CÓMO LLEGAMOS AHÍ?</h4>
+                        <p class="card-text">
+                            En  este  paso,  se  crea  un  plan  para  abordar  los  desafíos  a 
+                            medida que se identifican los puntos de inicio y finalización del  viaje de mejora en los
+                            dos pasos anteriores. <br>
+                            La mejor ruta puede no ser clara, a veces es necesario diseñar experimentos y probar
+                            opciones. <br>
+                            Si se omite este paso, la ejecución de la mejora probablemente fracase y no logre lo que se
+                            le exige.
+
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/paso5.jpg" width="286px" height="286px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>TOMAR ACCIÓN</h4>
+                        <p class="card-text">
+                            En este paso, se crea el plan para tomar la acción para la mejora. <br>
+
+                            Durante el proceso de mejora, debe centrarse continuamente en
+                            medir el progreso hacia la visión y gestionar los riesgos, así como en  garantizar la
+                            visibilidad y el conocimiento general de la iniciativa.
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/paso6.jpg" width="286px" height="286px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>¿LLEGAMOS?</h4>
+                        <p class="card-text">
+                            Este paso implica verificar el destino del viaje de mejora, para garantizar que se haya
+                            alcanzado el punto deseado.
+                            Para validar el éxito:
+                        <ul>
+                            <li> Compruebe y confirme el progreso y el valor de cada iteración.</li>
+                            <li> Tomar acciones adicionales, a menudo disparar una nueva iteración si no se cumple.</li>
+                        </ul>
+
+
+
+                        </p>
+                    </div>
+                </div>
+                <!-- FIN DE LA CARD -->
+                <div class="card" style="width: 18rem">
+                    <img src="source/img/ITIL4/paso7.jpg" width="286px" height="286px" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h4>CÓMO MANTENEMOS EL IMPULSO?</h4>
+                        <p class="card-text">
+                            El enfoque de este paso es mostrar los éxitos y reforzar los métodos recientemente
+                            introducidos. <br>
+                            Esto garantiza que el progreso realizado no se pierda y se genere soporte e impulso para las
+                            próximas mejoras. <br>
+                            Si se omite este paso, es probable que las mejoras permanezcan aisladas, las iniciativas
+                            independientes y cualquier progreso realizado se pierda nuevamente con el tiempo
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="preguntas">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Preguntas
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p><b>1)¿Qué es la mejora continua? </b></p>
+                                <p>Es una actividad que se realiza para garantizar que el
+                                    desempeño de la organización cumpla con las expectativas de los interesados
+                                </p>
+                                <p><b>2)¿Cuál es el objetivo de la mejora continua? </b></p>
+                                <p>Crear valor para sus clientes, partes
+                                    interesadas y socios
+                                </p>
+                                <p><b>3)¿En qué áreas de la organización se lleva a cabo la mejora continua? </b></p>
+                                <p>En todas las
+                                    áreas de la organización
+                                </p>
+                                <p><b>4)¿Cuántos pasos tiene el modelo de mejora continua?</b></p>
+                                <p> 7 pasos</p>
+                                <p><b>5)¿El evitar servicios obsoletos ante evolución de la tecnología es un beneficio
+                                        en la mejora
+                                        continua organizacional?
+                                    </b></p>
+                                <p>R= Correcto</p>
+                                <p><b>6)¿Cuál es el primer paso de la mejora continua? </b></p>
+                                <p>R= ¿Cuál es la visión?</p>
+                                <p><b>7)¿Cuál es el riesgo de no utilizar el paso 2 “Donde estamos ahora”? </b></p>
+                                <p>R= el estado actual no
+                                    se entenderá y no habrá una medición de línea de base objetiva
+                                </p>
+                                <p><b>8)¿Cuál es el riesgo de no utilizar el paso 2 “Donde estamos ahora”? </b></p>
+                                <p>el estado actual no
+                                    se entenderá y no habrá una medición de línea de base objetiva
+                                </p>
+                                <p><b>9) ¿Cómo se comprueba si se cumplió un objetivo? </b></p>
+                                <p>R= Compruebe y confirme el progreso
+                                    y el valor de cada iteración.
+                                </p>
+                                <p><b>10) ¿Cuál es el paso 7 del modelo de mejora continua?</b></p>
+                                <p>R= Como mantenemos el impulso</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin preguntas -->
+                <br><br>
+
+                <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="source/img/Comentarios/MEJORA CONTINUA.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="source/img/Comentarios/MEJORA CONTINUA (2).png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="source/img/Comentarios/mejoraContinua_comentario_edd.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- Fin del carrusel -->
+              <br><br>
+            </div>
+            <br>
+        </div>
+    </div>
+
+   
+    </div>
+    <!-- Fin contenido -->
+    <footer>
+        <div>
+            <a class="navbar-brand" href="#"><img src="source/img/logo/unam.png" alt="Logo de la unam"
+                    class="logo" /></a>
+        </div>
+        <div>
+            <p><b>ADMINISTRACIÓN DE SERVICIOS DE TI</b></p>
+        </div>
+        <div></div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--============ BOOSTRAP ============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!--============ GOOGLE FONTS ============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <!--============ ESTILOS CSS ============-->
+    <link rel="stylesheet" href="source/css/global/global.css" />
+    <link rel="stylesheet" href="source/css/layout/index.css" />
+    <link rel="stylesheet" href="source/css/layout/header.css" />
+    <link rel="stylesheet" href="source/css/layout/footer.css" />
+    <link rel="stylesheet" href="source/css/layout/itil4.css" />
+    <link rel="stylesheet" href="source/css/utilidades/utilidades.css" />
+    <title>Admon Servicios de TI</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-azulito">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="source/img/logo/unam.png"
+              alt="Logo de la unam"
+              class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Temas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="pmbok6.html"
+                      >PMBOK 6</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="pmbok7.html"
+                      >PMBOK 7
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="itil4.html"
+                      >ITIL 4</a
+                    >
+                  </li>
+                  <!--<li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>-->
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Participantes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="cvEdgar/index.html"
+                      >Rodríguez Villalba Edgar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="cvAlejandro/cv_alex.html"
+                      >Gabriel Alejandro Rojas Pérez</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      style="font-size: 15px"
+                      href="cvAmayrani/Curriculum.html"
+                      >Amayrani Fernandez Garcia</a
+                    >
+                  </li>
+                  <!--<li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>-->
+                </ul>
+              </li>
+              <!--<li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin del header-->
+    <div class="heroe_itil4">
+      <div class="overlay">
+        <h1>ITIL 4</h1>
+        <h3>Principios Guia</h3>
+      </div>
+    </div>
+    <div class="segundaNavegacion">
+      <nav class="segundoNav">
+        <a href="conceptosClave.html" target="blank">Conceptos clave</a>
+        <a href="principiosGuia.html" target="blank">Los principios guía</a>
+        <a href="dimensionesGServicios.html" target="blank"
+          >4 Dimensiones de gestión de servicios</a
+        >
+        <a href="svs.html" target="blank">Sistema de valor del servicio</a>
+        <a href="mejoraContinua.html" target="blank">Mejora continua</a>
+        <a href="practicasITIL.html" target="blank">Prácticas de ITIL</a>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="tema" id="tema1">
+        <div class="descripcion">
+            <h3>PRINCIPIOS GUIA</h3>
+            <p> Un principio guía es una filosofía o una idea establecida que guía a
+              una organización en todas las circunstancias. Se aplican a todas las 
+              iniciativas de la organización y a todas las relaciones con las partes 
+              interesadas que apoyan una cultura de colaboración y de intercambio.<br>   
+          </p><br>
+          <p>Existen 7 principios guía <br><br>
+            <ul>
+              <li>1. Enfoque en Valor</li>
+              <li>2. Empezar donde se está </li>
+              <li>3. Progresar Iterativamente con retroalimentación </li>
+              <li>4. Colaborar y promover visibilidad </li>
+              <li>5. Pensar y trabajar holísticamente </li>
+              <li>6. Mantenerlo simple y práctico </li>
+              <li>7. Optimizar y automatizar </li>
+            </ul>
+            <br><br>
+          </p>
+          <h3>1) ENFOQUE DE VALOR</h3>
+          <p>El principio “Enfoque en Valor” apunta a crear valor para los 
+          consumidores de servicios. Para lograr este valor, las organizaciones 
+          deben vincular las diferentes actividades (directa o indirectamente) 
+          que realizan de una manera lógica.
+          <br><br>
+          En otras palabras, una organización puede crear valor para los 
+          consumidores de servicios solo creando valor para sí misma, sus
+          clientes y partes interesadas. 
+        </p>
+          <br><br>
+          <h3>ASPECTOS A CONSIDERAR</h3>
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/consumidor.jpg"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              <h4>Los siguientes puntos presentan los aspectos en detalle:</h4>
+              <p class="card-text">
+                Comprensión de quién es un consumidor de servicios: los 
+                proveedores de servicios pueden crear el valor deseado solo 
+                si saben quién usará el servicio y qué recibirá. Por lo tanto, es 
+                esencial para ellos identificar y comprender a los consumidores
+                de sus servicios, así como a las otras partes interesadas
+                involucradas. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/perspectivas.png"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              <h4>Conocer las perspectivas del consumidor sobre el valor: </h4>
+              <p class="card-text">
+                los proveedores de servicios pueden definir el valor para los
+                consumidores en función de sus requisitos específicos, que
+                cambian de vez en cuando, y teniendo en cuenta las diferentes 
+                circunstancias. Por lo tanto, obtener el panorama claro de lo 
+                que significa valor para los consumidores de servicios es el
+                siguiente paso para que los proveedores de servicios presten 
+                el servicio deseado
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/experiencia.jpg"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              <h4> Mejora de la experiencia del cliente: </h4>
+              <p class="card-text">
+                El éxito de cualquier 
+               producto o servicio depende de la experiencia de los 
+               consumidores o clientes con el servicio y los proveedores. 
+               La experiencia se conoce generalmente como experiencia 
+               del cliente. Puede ser objetiva y subjetiva según los criterios 
+               definidos para medirla.
+             </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+         
+        </div>
+      </div>
+      <!-- Fin del tema -->
+      <div class="tema" id="tema2">
+        <div class="descripcion">
+            <h3>2) EMPEZAR DONDE SE ESTÁ </h3>
+            <p class="card-text">
+              El principio “Empezar donde se está” se enfoca en considerar 
+              lo que ya está disponible en lugar de comenzar desde cero (o 
+              reutilización). Para lograr esto, es esencial analizar el estado 
+              existente para identificar lo que puede ser útil para crear el 
+              nuevo valor.
+              <br /><br />
+              Las organizaciones a menudo toman la decisión de eliminar 
+                los métodos o servicios antiguos o fallidos para mejorar y estar 
+                actualizados. Sin embargo, no es una decisión inteligente ya que 
+                puede llevar a:
+              <br /><br />
+              <ul>
+                <li>Eliminar los servicios, procesos, personas y herramientas 
+                    existentes que podrían desempeñar un papel importante en la
+                    entrega del nuevo valor</li>
+                <li>Desarrollando un valor completamente diferente al pasado</li>
+                <li>Desperdicio de esfuerzo</li>
+              </ul>
+              <br><br>
+            </p>
+            <h3>ASPECTOS A CONSIDERAR</h3>
+
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/evaluar.webp"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              <h4>Evaluar dónde se encuentra:</h4>
+              <p class="card-text">
+                Antes de comenzar a evaluar 
+                los servicios y métodos, las organizaciones deben obtener los 
+                datos de la fuente, para evitar cualquier suposición y tomar 
+                decisiones basadas en información precisa.
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/medicion.png"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              
+              <p class="card-text">
+                Generalmente,los informes que genera una organización son diferentes de la 
+                realidad debido a las siguientes dos razones:
+                <ul>
+                    <li>Medición inexacta de algunos datos</li>
+                    <li>Sesgo involuntario o distorsión de los datos en los informes</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/reutilizar.png"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              
+              <p class="card-text">
+                Una vez que los datos necesarios estén en su lugar, comience 
+                con la evaluación para:
+                <ul>
+                    <li>Conocer el estado actual de los servicios y métodos</li>
+                    <li>Identifique la cantidad de reutilización que puede contribuir
+                        a crear el nuevo valor.</li>
+                    <li>Evite los supuestos relacionados con los plazos, los 
+                        presupuestos y la calidad.</li>
+                </ul>
+
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/pmbok6/costos.jpg"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              <h4>Medir la importancia de cada elemento: </h4>
+              <p class="card-text">
+                Puede evaluar cualquier cosa solo si puede medirla. Por lo tanto, la medición 
+                es una parte crucial de este principio.
+            </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/impacto.webp"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Es útil analizar los datos 
+                que obtiene de la fuente y comprender el impacto requerido 
+                que cada uno está reproduciendo en el estado actual. Tenga en 
+                cuenta que la medición también puede llevar a imprecisiones. 
+                 <br /><br />
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/metricas.webp"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Las personas generalmente encuentran formas creativas para 
+                cumplir con las métricas definidas para medir su desempeño.
+                Por lo tanto, las organizaciones deben ser creativas en la 
+                definición de éstas. Deben centrarse en definir las métricas que
+                se relacionan directamente con el resultado. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+         
+        </div>
+      </div>
+      <!-- Fin del tema -->
+      <br><br>
+      <div class="tema" id="tema3">
+        <div class="descripcion">
+          <h3>3) PROGRESAR INTERATIVAMENTE CON RETROALIMENTACIÓN</h3>
+          <p>
+            El principio “Progresar Iterativamente con Retroalimentación” 
+            se focaliza en evitar el buscar el todo de una vez y en recibir 
+            retroalimentación oportuna. Para lograr esto, es necesario 
+            dividir el trabajo en componentes más pequeños y manejables 
+            para lograr de manera iterativa la iniciativa.
+          <br /><br />
+          Para llevar a cabo las iniciativas, ni siquiera intente hacer todo de una 
+            vez, sino trabajar en iteraciones. Siempre divida el trabajo en unidades 
+            lógicas más pequeñas y manejables. En otras palabras, divida la 
+            iniciativa de mejora en las iniciativas significativas más pequeñas que 
+            requieran esfuerzos mínimos de mejora. Organizar el trabajo de tal
+            manera ayuda en la entrega oportuna, teniendo un mayor enfoque 
+            en cada esfuerzo y un fácil mantenimiento.
+          <br /><br />
+          <p>
+                Las iteraciones también ayudan a recopilar comentarios tempranos. 
+                Obtener los comentarios antes, durante y después de cada iteración 
+                garantiza que todo está progresando según las expectativas, y que el 
+                enfoque esté en el valor.</li>
+            </p>
+          <br><br>
+          </p>
+          <h3>ASPECTOS A CONSIDERAR</h3>
+          <br>
+
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/dividir.jpg"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              <h4>Conocer el papel de la retroalimentación</h4>
+              <p class="card-text">
+                Cuando se trabaja 
+                en una iniciativa de mejora, ninguna iteración de mejora puede 
+                progresar de forma aislada debido a los requisitos cambiantes, 
+                como los cambios en las circunstancias y las nuevas prioridades. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/modificaciones.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Estos requisitos pueden llevar a varias modificaciones e incluso
+                pueden eliminar la necesidad de tener esa iteración. Para 
+                evitar tales situaciones, siempre busque retroalimentación 
+                antes, durante y después de cada iteración e incorpórela para 
+                garantizar el enfoque en el valor. 
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/requisitos.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Las organizaciones utilizan 
+                ciclos de retroalimentación para hacer frente a los requisitos 
+                cambiantes que les ayudan a identificar oportunidades, riesgos y problemas de mejora
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/iteraciones.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Trabajando juntos con iteraciones y retroalimentación:</h4>
+              <p class="card-text">
+                Un ciclo continuo de monitorización y mejora con cada iteración a través de 
+                ciclos de retroalimentación ayuda a las organizaciones a:
+            </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/calidad.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Mejore la calidad:</h4>
+              <p class="card-text">
+                Trabajar de forma iterativa con ciclos de 
+               retroalimentación proporciona una mayor flexibilidad para
+               fallar rápidamente y descubrir los próximos pasos para el 
+               éxito. Eso ayuda a responder a las necesidades del cliente 
+               y de la empresa con eficacia y antes de tiempo
+                <br /><br />
+             </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/decisiones.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4> Tome decisiones efectivas:</h4>
+              <p class="card-text">
+                Obtener retroalimentación en 
+                cada paso ayuda a comprender claramente cuál es la necesidad 
+                de realizar una tarea determinada, quién es el cliente, cómo 
+                su acción puede afectar los resultados esperados y muchos 
+                más. Dicha información permite a las organizaciones tomar 
+                decisiones efectivas, satisfacer las necesidades de los clientes 
+                y mejorar la experiencia del cliente
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+         
+        </div>
+        
+      </div>
+      <!-- Fin del tema -->
+      <br><br>
+      <div class="tema" id="tema4">
+        <div class="descripcion">
+          <h3>4) COLABORAR Y PROMOVER VISIBILIDAD</h3>
+          <p>
+          El principio “Colaborar y Promover Visibilidad” se centra en 
+                eliminar silos y generar confianza. Para lograr esto, las personas 
+                en una organización necesitan trabajar juntas y compartir 
+                información en la mayor medida posible.</p>
+              <br><br>
+             <h4> Eliminar Silos </h4>
+             <p>
+                Los silos  pueden ocurrir a través del comportamiento de individuos 
+                y equipos, así como también a través de causas estructurales. En
+                una organización, los silos generalmente se deben a la incapacidad 
+                de las diferentes unidades de negocios para colaborar.
+                </p>
+              <br>
+              <p>
+                Los silos se producen cuando las personas trabajan de forma aislada 
+                y el intercambio de información se limita a unas pocas personas. 
+                Cuando las personas no conocen los detalles, es más probable que 
+                ocurran suposiciones y rumores. Como resultado, se crea un muro 
+                de confusión entre individuos o equipos.
+                </p>
+                <p>
+                    Recuerde que ningún trabajo se realiza de forma aislada. Incluir a todos 
+                    en las iniciativas es siempre una mejor política para tener éxito sin ninguna
+                    confusión. Las contribuciones entusiastas ayudan a traer creatividad y 
+                    diferentes perspectivas. Es por eso que las organizaciones fomentan la 
+                    cooperación y la colaboración y desalientan la “actividad de silo”.
+                </p>
+                <br>
+
+                <h4> Construir confianza </h4>
+                Trabajar juntos en iniciativas de forma colaborativa proporciona más 
+                relevancia y una mejor comprensión que hace que todo sea visible. 
+                La visibilidad ayuda a tomar decisiones efectivas, lo que a su vez 
+                aumenta las posibilidades de éxito a largo plazo. Sin embargo, el 
+                trabajo colaborativo no es una tarea fácil, ya que requiere generar 
+                confianza.
+              <br><br>
+              <p>
+                La confianza dentro de los equipos les ayuda a mantenerse 
+                comprometidos y administrar las cosas (incluso lo desconocido) 
+                con confianza. Solo si las personas tienen confianza, compartirán 
+                información que les ayudará a aprender, crecer y hacer un gran 
+                trabajo junto.
+                </p>
+                <p>
+                    Compartir información ayuda a las personas a tener una mejor 
+                    comprensión y una visibilidad clara, tales como cuáles son las 
+                    agendas ocultas, qué está sucediendo y por qué. Mientras más gente 
+                    sepa acerca de las iniciativas y la información asociada, más estarán 
+                    dispuestos a apoyar.
+                </p>
+
+              <br><br>
+              <h3>ASPECTOS A CONSIDERAR</h3>
+          <br>
+
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/servicios.png"
+              class="card-img-top"
+              width="286 px"
+              height="170 px"
+            />
+            <div class="card-body">
+              <h4> Identificar con quién colaborar</h4>
+              <p class="card-text">
+                Comprender para quién se 
+                está trabajando y cuáles son sus perspectivas y expectativas, 
+                es esencial para una colaboración exitosa. 
+              </p>
+              <p>Trabajar eficazmente en colaboración requiere identificar, gestionar y 
+                comprender a todos los actores involucrados en la iniciativa. Por lo tanto, 
+                entender para quién esta trabajando y cuales son sus perpectivas y espectativas es escencial para 
+                una comunicación exitosa.</p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/comunicar.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>  Comunicando y mejorando </h4>
+              <p class="card-text">
+                Los proveedores de servicios 
+                deben saber hasta qué punto cada parte interesada contribuye 
+                a mejorar el servicio en cada nivel.
+              </p>
+              <p>
+                Al trabajar en iniciativas de mejora, los proveedores de servicios 
+                deben saber hasta qué punto cada parte interesada contribuye a 
+                mejorar el servicio en cada nivel.  
+                Conocer las expectativas sobre el nivel de contribución requiere 
+                una comunicación efectiva con las partes interesadas. El tipo de 
+                colaboración para comunicarse con las partes interesadas depende 
+                del servicio y la relación entre el proveedor del servicio y el consumidor 
+                del servicio. P 
+              </p>
+               
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/visibilidad.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Mayor urgencia a través de la visibilidad </h4>
+              <p class="card-text">
+                Crear la urgencia 
+                del trabajo es esencial para que todos conozcan acerca de su 
+                prioridad.
+              </p>
+              <p>Crear la urgencia del trabajo es esencial para que todos conozcan 
+                acerca de su prioridad.
+                La mala visibilidad del trabajo conduce a una toma de decisiones 
+                ineficaz que afecta la capacidad de la organización para mejorar las 
+                capacidades internas. En tales circunstancias, donde nadie sabe 
+                acerca del impacto positivo de la iniciativa de mejora, se hace difícil
+                trabajar en ello</p>
+               
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+        </div>
+      </div>
+      <!-- Fin del tema -->
+      <br><br>
+      <div class="tema" id="tema5">
+        <div class="descripcion">
+          <h3>5) PENSAR Y TRABAJAR HOLÍSTICAMENTE</h3>
+          <p> El principio “Pensar y Trabajar Holísticamente” se centra en
+            trabajar de manera integral. Para lograr esto, las diversas 
+            actividades de una organización deben centrarse en la entrega 
+            de valor.
+          <br /><br />
+         
+          <br>
+          
+       </p><br>
+       <h3>ASPECTOS A CONSIDERAR</h3>
+          <br>
+
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/colaborar.jpg"
+              class="card-img-top"
+              width="286 px"
+              height="160 px"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Ningún trabajo se realiza de forma aislada. Del mismo modo, ningún 
+                servicio, práctica, proceso, departamento o proveedor puede ser 
+                independiente.
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/equipo2.jpg"
+              class="card-img-top"
+              width="286 px"
+              height="160 px"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Trabajar como una entidad separada no puede ayudarlos 
+                a producir el resultado requerido. Tienen que trabajar juntos de manera 
+                integrada para entregar los resultados esperados.
+              </p>
+               
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/equipo.jpg"
+              class="card-img-top"
+              width="286 px"
+              height="160 px"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                El manejo de las 
+                actividades en su conjunto, que se centran en la entrega de valor, solo 
+                puede ayudar a las organizaciones a producir los resultados requeridos 
+                para sus clientes y para las partes interesadas internas y externas.
+              </p>
+               
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+         
+        </div>
+        
+      </div>
+      <!-- Fin del tema -->
+      <br><br>
+      <div class="tema" id="tema6">
+        <div class="descripcion">
+          <h3>6) MANTENERLO SIMPLE Y PRÁCTICO</h3>
+          <p> 
+            El principio “Mantenlo Simple y Práctico” se enfoca en simplificar 
+            los métodos de trabajo complejos. Para lograr esto, identifique y 
+            elimine procesos, servicios, acciones o métricas que no agregen 
+            ningún valor al resultado.</p>
+            <br>
+           <p> Las organizaciones pueden simplificar su complejo sistema al reducir 
+              los pasos necesarios para lograr el(los) objetivo(s). Siempre use un 
+              pensamiento basado en resultados para generar soluciones prácticas 
+              que entreguen beneficios al negocio.</p>
+            <br>
+            <p>Las organizaciones generalmente intentan proporcionar una solución 
+              para cada excepción. Al hacerlo, ignoran el principio “Mantenlo simple 
+              y práctico” y terminan desarrollando métodos de trabajo complejos 
+              que no maximizan los resultados ni minimizan los costos. 
+          </p>
+            <br>
+            <h3>ASPECTOS A CONSIDERAR</h3>
+
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/mantener.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Decidir qué mantener</h4>
+              <p class="card-text">
+                Preguntar qué contribuye a la creación 
+               de valor es la clave para analizar cualquier iniciativa de mejora. 
+             </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/procedimientos.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Ayuda a comprender cómo una práctica, servicio, procedimiento 
+                o proceso contribuye a crear valor.
+              </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/mejora.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Una de las formas de lograr 
+                esto es comenzar a diseñar la iniciativa de mejora con un 
+                enfoque simple (sin complicaciones) y agregar los controles, 
+                actividades o métricas según sus necesidades.
+              </p>
+               
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+         
+        </div>
+
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/objetivos.jpg"
+              class="card-img-top"
+              width="286 px"
+              height="200 px"
+            />
+            <div class="card-body">
+              <h4>Evitar objetivos conflictivos</h4>
+              <p class="card-text">
+                “Al diseñar, administrar u operar 
+                prácticas, tenga en cuenta los objetivos conflictivos. 
+            </p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/datos_decisiones.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Por ejemplo,
+                la gerencia de una organización puede querer recopilar una 
+                gran cantidad de datos para tomar decisiones, mientras que las 
+                personas que deben llevar el registro pueden querer un proceso 
+                más simple que no requiera tanta entrada de datos. A través de la 
+                aplicación de éste y de los otros principios guía, la organización
+                debe acordar un equilibrio entre sus objetivos que están en 
+                competencia.
+                 <br><br>
+              </p>
+               
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/metricas.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                En este ejemplo, esto podría significar que los servicios solo deberían generar datos que realmente proporcionen
+                valor al proceso de toma de decisiones, y el mantenimiento de 
+                registros se debe simplificar y automatizar cuando sea posible
+                para maximizar el valor y reducir el trabajo que no agrega valor”.
+              </p>
+               
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+         
+        </div>
+        
+      </div>
+      <!-- Fin del tema -->
+      <br><br>
+      <div class="tema" id="tema7">
+        <div class="descripcion">
+          <h3>7) OPTIMIZAR Y AUTOMATIZAR</h3>
+          <p>
+          El principio “Optimizar y Automatizar” se centra en optimizar el 
+          trabajo realizado por sus recursos humanos y técnicos. Para lograr 
+          esto, las organizaciones deben automatizar el trabajo en la medida 
+          de lo posible que requiera una intervención humana mínima.</p>
+            <br>
+            <p>
+            La optimización ayuda a las organizaciones a maximizar el valor del 
+              trabajo. Les ayuda a eliminar acciones innecesarias y repetitivas 
+              utilizando la tecnología adecuada. Sin embargo, tener una visión
+              holística de cómo funcionan las distintas partes de una organización
+              es esencial. Las cuatro dimensiones de la gestión de servicios pueden 
+              ayudarles a proporcionar una visión holística teniendo en cuenta las
+              diversas restricciones, los tipos de recursos y otras áreas. </p>
+            <br>
+            <p>La tecnología permite a las organizaciones ampliar y utilizar sus
+              recursos humanos para la toma de decisiones complejas. Tenga en 
+              cuenta que no puede confiar en la tecnología sin la capacidad requerida
+              de intervención humana. Automatizar todo solo por la automatización 
+              sin ninguna razón subyacente puede generar enormes costos y 
+              reducir la solidez y la capacidad de recuperación de la organización.</p>
+            <br>
+            <h3>ASPECTOS A CONSIDERAR</h3>
+
+        </div>
+        <div class="desarrollo">
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/optimizar.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>Encontrar el camino correcto para la optimización</h4>
+              <p class="card-text">
+                No importa las prácticas que siga una organización. El camino a la 
+               optimización es el mismo
+             </p>
+             <p>Independientemente de las prácticas que siga una organización, el 
+               camino a la optimización consiste en los siguientes pasos:
+           <ul>
+               <li>Paso 1: Comprender y aceptar el contexto.</li>
+               <li>Paso 2: Evaluar el estado actual de la optimización propuesta.</li>
+               <li>Paso 3: Estar de acuerdo con el estado futuro.</li>
+               <li>Paso 4: Asegurar el nivel de optimización.</li>
+               <li>Paso 5: Ejecutar las mejoras iterativamente.</li>
+               <li>Paso 6: Supervisar continuamente el impacto de la optimización.</li>
+           </ul></p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="source/img/ITIL4/conceptos_clave/automatizar2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4> Utilizando automatización</h4>
+              <p class="card-text">
+                La automatización ayuda a las 
+               organizaciones a ahorrar costos, reducir errores humanos y 
+               mejorar la experiencia de los empleados.
+             </p>
+             <p>La automatización es el proceso de utilizar la tecnología para
+               maximizar el valor del trabajo con una intervención humana mínima.<br>
+           Algunos beneficios son:
+               <lu>
+                   <li>Disponibilidad</li>
+                   <li>Productividad</li>
+                   <li>Reducción de Costos</li>
+                   <li>Desempeño</li>
+                   <li>Confiabilidad</li>
+               </lu>
+           </p>
+           <p>Las organizaciones pueden encontrar muchas oportunidades de 
+               automatización que pueden ayudarles a ahorrar costos, reducir los 
+               errores humanos y mejorar la experiencia de los empleados. En 
+               palabras simples, la automatización es el proceso de estandarización 
+               y racionalización de las acciones manuales. Como resultado, la 
+               necesidad mínima de participación humana para detenerse y evaluar
+               cada parte de un proceso conduce a una mayor eficiencia.</p>
+            </div>
+          </div>
+          <!-- FIN DE LA CARD -->
+        </div>
+
+      </div>
+      <!-- Fin del tema -->
+
+      <!--PREGUNTAS-->
+      <br>
+      <div class="preguntas">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Preguntas
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p><b>1. Que es una principio guía? </b></p>
+                <p>R.-Son las bases de lo que es proyecto</p>
+              </div>
+              <div class="accordion-body">
+                <p><b>2.¿Qué es valor?
+                  </b></p>
+                <p>R.- Es una gratificación por un trabajo realizado</p>
+              </div>
+              <div class="accordion-body">
+                <p><b>3.¿Porque es mejor trabajar en equipo?</b></p>
+                <p>R.-Ayuda ah realizar un trabajo más rápido</p>
+              </div>
+              <div class="accordion-body">
+                <p><b>4. ¿Que es una mejora continua? </b></p>
+                <p>R.-Encontrar factores mejorables y aumentar su eficiencia/p>
+              </div>
+              <div class="accordion-body">
+                <p><b>5. ¿Qué es una automatización? </b></p>
+                <p>R.- Realizar una acción automática
+                  </p>
+              </div>
+              <div class="accordion-body">
+                <p><b>6. ¿Que es itil? </b></p>
+                <p>R.- Una serie de buenas prácticas para llevar al éxito</p>
+              </div>
+              <div class="accordion-body">
+                <p><b>7.¿Cuantas versiones hay de Itil?</b></p>
+                <p>R.- 4 versiones</p>
+              </div>
+              <div class="accordion-body">
+                <p><b>8. ¿Que es un enfoque predictivo? 
+                </b></p>
+                <p>R.-Es un enfoque que lleva a abordar</p>
+              </div>
+              <div class="accordion-body">
+                <p><b>9.¿Cuantos principios tiene itil? 
+                </b></p>
+                <p>R.- 7 principios
+                </p>
+              </div>
+              <div class="accordion-body">
+                <p><b>10.¿Qué es Think and work holistically?</b></p>
+                <p>R.-Pensar y trabajar de manera holística significa pensar y trabajar en
+                  equipos, departamentos, sistemas y otros límites para centrarse en la creación de valor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin preguntas -->
+      </div>
+      <br>
+      <br>
+
+      <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="source/img/Comentarios/PRINCIPIOS GUIA.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="source/img/Comentarios/PRINCIPIOS GUIA (2).png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="source/img/Comentarios/principiosGuia_comentario_edd.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Fin del carrusel -->
+    <br><br>
+
+    </div>
+    <!-- Fin contenido -->
+    <footer>
+      <div>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="source/img/logo/unam.png"
+            alt="Logo de la unam"
+            class="logo"
+        /></a>
+      </div>
+      <div>
+        <p><b>ADMINISTRACIÓN DE SERVICIOS DE TI</b></p>
+      </div>
+      <div></div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
